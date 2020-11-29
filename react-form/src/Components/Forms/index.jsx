@@ -16,10 +16,14 @@ const SignUpForm = () => {
   return (
     <StyledSignUpForm>
       <Title>Create Account</Title>
-      <Label htmlFor="username">Username</Label>
-      <Input id="username" name="username" type="text" required />
-      <Label htmlFor="email">Email</Label>
-      <Input id="email" name="email" type="email" required />
+      <Label>
+        Username
+        <Input name="username" type="text" required />
+      </Label>
+      <Label>
+        Email
+        <Input name="email" type="email" required />
+      </Label>
       <PasswordsContainer>
         <PasswordDiv>
           <Label htmlFor="password">Password</Label>

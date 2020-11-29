@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const StyledLoginConection = styled.p`
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   color: darkgray;
+  margin-right: 1rem;
 `;
 
 const StyledLoginAnchorText = styled.a`
@@ -11,6 +12,7 @@ const StyledLoginAnchorText = styled.a`
 
   &:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
 `;
 

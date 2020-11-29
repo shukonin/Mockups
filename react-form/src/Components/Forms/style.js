@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const StyledSignUpForm = styled.form`
-  max-width: 15rem;
   display: grid;
   grid-auto-flow: row;
   gap: 1rem;
@@ -10,11 +9,14 @@ const StyledSignUpForm = styled.form`
 const Title = styled.h2`
   font-size: 2rem;
   font-weight: bold;
+  margin-top: 0;
 `;
 
 const Label = styled.label`
   font-size: 0.8rem;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
 `;
 
 const CheckboxLabel = styled.label`
@@ -26,8 +28,8 @@ const CheckboxLabel = styled.label`
 const Input = styled.input`
   padding: 0.5rem;
   border: none;
-  border-radius: 0.1rem;
-  background-color: #ddd;
+  border-radius: 0.8rem;
+  background-color: #eee;
 `;
 
 const PasswordsContainer = styled.div`
@@ -36,16 +38,29 @@ const PasswordsContainer = styled.div`
   gap: 1rem;
 `;
 
-const PasswordDiv = styled.div``;
+const PasswordDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
-const ConfirmPasswordDiv = styled.div``;
+const ConfirmPasswordDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 const Checkbox = styled.input``;
 
 const CreateAccountButton = styled.button`
-  background-color: #44f;
+  background-color: #4af;
   color: white;
+  border: none;
   border-radius: 1rem;
+  padding: 1rem 5rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #5bf;
+  }
 `;
 
 export {

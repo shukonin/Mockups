@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const StyledCompanyLogo = styled.img`
-  height: 3rem;
-  width: auto;
+  width: 5rem;
 `;
 
 export { StyledCompanyLogo };

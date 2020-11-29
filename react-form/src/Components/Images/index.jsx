@@ -1,13 +1,9 @@
 import React from "react";
 import { StyledSignUpImage } from "./style";
+import photo from "../../Assets/SignUpImage.jpg";
 
 const SignUpImage = () => {
-  return (
-    <StyledSignUpImage
-      src="../../Assets/SignUpImage.jpg"
-      alt="Greeting girl with glasses"
-    />
-  );
+  return <StyledSignUpImage src={photo} alt="Greeting girl with glasses" />;
 };
 
 export { SignUpImage };

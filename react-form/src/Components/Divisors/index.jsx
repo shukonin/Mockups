@@ -1,8 +1,18 @@
 import React from "react";
-import { StyledSignUpDivisor } from "./style";
+import {
+  HorizontalLine,
+  StyledSignUpDivisor,
+  HorizontalOrDivisor,
+} from "./style";
 
 const SignUpDivisor = () => {
-  return <StyledSignUpDivisor>Or</StyledSignUpDivisor>;
+  return (
+    <HorizontalOrDivisor>
+      <HorizontalLine />
+      <StyledSignUpDivisor>Or</StyledSignUpDivisor>
+      <HorizontalLine />
+    </HorizontalOrDivisor>
+  );
 };
 
 export { SignUpDivisor };
